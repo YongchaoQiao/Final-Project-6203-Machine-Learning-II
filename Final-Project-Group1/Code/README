@@ -1,3 +1,7 @@
+For the data it should be download manually from https://www.kaggle.com/c/plant-pathology-2020-fgvc7/data to the computer.
+Then the data should be upload to the cloud since we use GPU to run the model.
+
+After geting the original zip file of data:
 Frstly run, DataPreprocessing(Original Train)
 Secondly run, DataPreprocessing(Original Test)
 Thirdly run, Fianl_train
