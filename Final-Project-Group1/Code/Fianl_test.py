@@ -113,7 +113,7 @@ class CNN(nn.Module):
 x_test = torch.tensor(x_test).float().to(device)
 # Load the model
 model = CNN().to(device)
-PATH1 = 'model_yongchaoqiao9day5_2.pt'
+PATH1 = 'model_yongchaoqiaofinal.pt'
 # PATH2 = 'model_yongchaoqiao9day5_2.pt'
 model.load_state_dict(torch.load(PATH1, map_location=device))
 model.eval()
